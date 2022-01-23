@@ -7,9 +7,9 @@ But once you have a hang of the basic concepts and are able to perform feature e
 
 Features engineering techniques
 
-Date-Related Features
-Time-Related Features
-Lag Features
-Rolling Window
-Expanding Window
-Domain-Specific
+1. Date-Related Features
+2. Time-Related Features
+3. Lag Features
+4. Rolling Window
+5. Expanding Window
+6. Domain-Specific
