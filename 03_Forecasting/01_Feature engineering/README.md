@@ -5,7 +5,7 @@ Time Series is often considered a difficult topic to master.
 That’s understandable because there are a lot of moving parts when we’re working with the date and time components.
 But once you have a hang of the basic concepts and are able to perform feature engineering, you’ll be gliding through your projects in no time
 
-Features engineering techniques
+## Features engineering techniques
 
 1. Date-Related Features
 2. Time-Related Features
