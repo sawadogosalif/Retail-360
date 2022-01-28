@@ -13,19 +13,10 @@ l’analyse des durées de vie, mais on pourra toujours transporter une variable
 dans un état donné (chômage, célibataire) et/ou celle séparant deux événements (changement
 de compagne d‘assurance, changement d’emploi, …).
  La loi de la durée T est caractérisée entièrement par l’une de ces fonctions :
- Sa fonction de densité : f(t) ;
- Sa fonction de répartition : F(t) ;
- Sa fonction de survie : S(t) = 1-F(t).
+. Sa fonction de densité : f(t) ;
+. Sa fonction de répartition : F(t) ;
+. Sa fonction de survie : S(t) = 1-F(t).
 En plus de ces fonctions, il existe d’autres pouvant caractérisées T et possédant des
 interprétations intéressantes dans l’analyse des durées de vie. Ces fonctions sont :
- La fonction hasard (fonction de risque, taux de panne instantané ou taux de défaillance,
-taux de sortie d’un état donné) :
-( )
-( )
-( )
-S t
-f t
-h t  ; 
-© 2022 GitHub, Inc.
-Terms
-Privac
+. La fonction hasard (fonction de risque, taux de panne instantané ou taux de défaillance,
+taux de sortie d’un état donné) : h(t)=F(t)/1-F(t)
