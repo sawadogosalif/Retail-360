@@ -2,7 +2,7 @@ L’analyse statistique des durées de vie est un ensemble de méthodes et techn
 statistiques qui permettent de modéliser et d’estimer les lois décrivant le temps qui s’écoule
 jusqu'à la survenue d’un événement particulier (qui n’est pas forcément la mort)
 Les données de durées de vie sont des données positives qu’on représentera par des
-variables aléatoiresT T_1, T_2, ..., T_n
+variables aléatoires $T T_1, T_2, ..., T_n$
 . On notera par la suite T la durée de vie d’un individu (ou de
 l’unité statistique en question). T est une variable aléatoire dont la fonction de répartition F a 
 4
