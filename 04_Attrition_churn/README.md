@@ -21,7 +21,9 @@ l’unité statistique en question). T est une variable aléatoire dont la fonct
  La loi de la durée T est caractérisée entièrement par l’une de ces fonctions :
  
 + Sa fonction de densité : f(t) ;
+
 +Sa fonction de répartition : F(t) ;
+
 +Sa fonction de survie : S(t) = 1-F(t).
 
 En plus de ces fonctions, il existe d’autres pouvant caractérisées T et possédant des
