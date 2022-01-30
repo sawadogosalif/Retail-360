@@ -33,4 +33,4 @@ interprétations intéressantes dans l’analyse des durées de vie. Ces fonctio
 taux de sortie d’un état donné) :  h(t)=F(t)/1-F(t)
 
 
-+ La fonction de risque cumulée est définie par H(t)
++ La fonction de risque cumulée est définie par H(t) <img src="https://latex.codecogs.com/svg.image?H(t)=&space;\int_{0}^{t}\lambda&space;(z)dz" title="H(t)= \int_{0}^{t}\lambda (z)dz" />
