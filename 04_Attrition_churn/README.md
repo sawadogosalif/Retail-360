@@ -29,9 +29,8 @@ l’unité statistique en question). T est une variable aléatoire dont la fonct
 En plus de ces fonctions, il existe d’autres pouvant caractérisées T et possédant des
 interprétations intéressantes dans l’analyse des durées de vie. Ces fonctions sont :
 
-La fonction hasard (fonction de risque, taux de panne instantané ou taux de défaillance,
-taux de sortie d’un état donné) : 
-+ h(t)=F(t)/1-F(t)
++ La fonction hasard (fonction de risque, taux de panne instantané ou taux de défaillance,
+taux de sortie d’un état donné) :  h(t)=F(t)/1-F(t)
 
 
 + La fonction de risque cumulée est définie par H(t)
