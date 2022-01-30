@@ -24,7 +24,7 @@ l’unité statistique en question). T est une variable aléatoire dont la fonct
 
 + Sa fonction de répartition : F(t) ;
 
-+ Sa fonction de survie : S(t) = 1-F(t).
++ Sa fonction de survie : <img src="https://latex.codecogs.com/svg.image?S(t)=&space;1-F(t)" title="S(t)= 1-F(t)" />
 
 En plus de ces fonctions, il existe d’autres pouvant caractérisées T et possédant des
 interprétations intéressantes dans l’analyse des durées de vie. Ces fonctions sont :
