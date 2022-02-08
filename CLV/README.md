@@ -8,6 +8,7 @@ une certaine période de temps, puis devenir définitivement inactif
 
 ## Prémière approche :Modélisation du Flux de transaction ("By till You Die")
 #### Processus de transaction
+##### Hypothèse 1
 + Lorsqu'il est actif, un client achète "au hasard" autour de son taux de transaction moyen 
 
 De son vivant, le nombre de transactions effectuées par un client suit un processus de Poisson avec
@@ -19,6 +20,7 @@ avec taux de transaction λ
 
 <img src="https://latex.codecogs.com/svg.image?f(t_j-t_{j-1}&space;|&space;\lambda&space;)=" title="f(t_j-t_{j-1} | \lambda )=" /> <img src="https://latex.codecogs.com/svg.image?\lambda&space;exp^{-\lambda(t_j-t_{j-1})}&space;&space;&space;&space;&space;&space;&space;&space;" title="\lambda exp^{-\lambda(t_j-t_{j-1})} " />      avec  <img src="https://latex.codecogs.com/svg.image?t_j>&space;t_{j-1}&space;>0" title="t_j> t_{j-1} >0" />
 
+##### Hypothèse 2
 + Les taux de transaction varient selon les clients (effet individuels inobservés)
 
 Ils suit une distribution gamma avec une forme paramètre r et paramètre d'échelle α 
