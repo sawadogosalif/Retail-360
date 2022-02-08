@@ -13,7 +13,8 @@ une certaine période de temps, puis devenir définitivement inactif
 
 De son vivant, le nombre de transactions effectuées par un client suit un processus de Poisson avec
 taux de transaction λ ; donc la probabilité d'observer x transactions dans l'intervalle de temps
-(0, t] est donné par :<img src="https://latex.codecogs.com/svg.image?P(X(t)=x&space;|&space;\lambda)&space;=&space;&space;\frac{{\lambda&space;t&space;}^x&space;e^{&space;-\lambda&space;t}}{x!}" title="P(X(t)=x | \lambda) = \frac{{\lambda t }^x e^{ -\lambda t}}{x!}" />
+(0, t] est donné par :
+<img src="https://latex.codecogs.com/svg.image?P(X(t)=x&space;|&space;\lambda)&space;=&space;&space;\frac{{\lambda&space;t&space;}^x&space;e^{&space;-\lambda&space;t}}{x!}" title="P(X(t)=x | \lambda) = \frac{{\lambda t }^x e^{ -\lambda t}}{x!}" />
 
 Cela équivaut à supposer que le temps entre les transactions est distribué exponentiellement
 avec taux de transaction λ
@@ -24,12 +25,14 @@ avec taux de transaction λ
 + Les taux de transaction varient selon les clients (effet individuels inobservés)
 
 Ils suit une distribution gamma avec une forme paramètre r et paramètre d'échelle α 
+
 <img src="https://latex.codecogs.com/svg.image?g(\lambda&space;|&space;r,&space;\alpha&space;)&space;=&space;\frac{\alpha&space;^{r}&space;\lambda^{r-1}&space;e^{-\alpha&space;\lambda}}{\Gamma&space;(r)&space;}&space;" title="g(\lambda | r, \alpha ) = \frac{\alpha ^{r} \lambda^{r-1} e^{-\alpha \lambda}}{\Gamma (r) } " />
 
 #### Processus d'abandon
 + Chaque client a une propension à l'abandon non observée qui varie selon les clients
 
 La "durée de vie" non observée d'un client de longueur τ (au-delà de laquelle il est considéré comme inactif)
+
 est distribué de manière exponentielle avec un taux d'abandon μ : <img src="https://latex.codecogs.com/svg.image?f(\tau&space;&space;|&space;\mu&space;)=&space;\mu&space;e^{-\mu&space;\tau}" title="f(\tau | \mu )= \mu e^{-\mu \tau}" />
 
 + La propension au churn (abondon) varie selon les clients
