@@ -52,3 +52,4 @@ Les hypothèses 1 nous permettent de déduire que le distribution du nombre de t
 
 Les hypothèses 2 nous permettent de déduire que lA durée de vie du clients   est **une distribution de pareto** (Pareto distribution of the second kind)
 
+<img src="https://latex.codecogs.com/svg.image?f(\tau&space;&space;|&space;s,&space;\beta)&space;=&space;&space;\int_{0}^{\infty&space;}&space;f(\tau&space;&space;|&space;\mu)&space;&space;*&space;g(\mu&space;|{s,&space;\beta&space;)}&space;d&space;\mu=\frac{s}{\beta}&space;{(\frac{\beta&space;}{\beta&space;&plus;\tau})}^{s&plus;1}" title="f(\tau | s, \beta) = \int_{0}^{\infty } f(\tau | \mu) * g(\mu |{s, \beta )} d \mu=\frac{s}{\beta} {(\frac{\beta }{\beta +\tau})}^{s+1}" />
