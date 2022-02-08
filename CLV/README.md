@@ -18,7 +18,7 @@ taux de transaction λ ; donc la probabilité d'observer x transactions dans l'
 Cela équivaut à supposer que le temps entre les transactions est distribué exponentiellement
 avec taux de transaction λ
 
-<img src="https://latex.codecogs.com/svg.image?\lambda&space;exp^{-\lambda(t_j-t_{j-1})}&space;&space;&space;&space;&space;&space;&space;&space;" title="\lambda exp^{-\lambda(t_j-t_{j-1})} " />     
+<img src="https://latex.codecogs.com/svg.image?\lambda&space;exp^{-\lambda(t_j-t_{j-1})}&space;&space;&space;&space;&space;&space;&space;&space;" title="\lambda exp^{-\lambda(t_j-t_{j-1})} " />       <img src="https://latex.codecogs.com/svg.image?t_j>&space;t_{j-1}&space;>0" title="t_j> t_{j-1} >0" />
 
 #### Processus d'abandon
 + Chaque client a une propension à l'abandon non observée qui varie selon les clients
