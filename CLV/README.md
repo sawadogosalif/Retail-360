@@ -6,7 +6,7 @@
 Les clients traversent deux étapes dans leur « vie » avec une entreprise spécifique : ils sont « vivants » pour
 une certaine période de temps, puis devenir définitivement inactif
 
-## Prémière approche :Modélisation du Flux de transaction ("By till You Die")
+## Prémière approche :Modélisation du Flux de transaction (Le modèle Pareto/NBD )
 #### Processus de transaction
 ##### Hypothèses 1
 + Lorsqu'il est actif, un client achète "au hasard" autour de son taux de transaction moyen 
