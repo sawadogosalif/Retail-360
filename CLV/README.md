@@ -45,5 +45,6 @@ paramètre s et paramètre d'échelle β.
 <img src="https://latex.codecogs.com/svg.image?g(\mu&space;|&space;s,&space;\beta&space;)&space;=&space;\frac{\beta&space;^{s}&space;\mu^{s-1}&space;e^{-\beta&space;\mu}}{\Gamma&space;(s)&space;}&space;" title="g(\mu | s, \beta ) = \frac{\beta ^{s} \mu^{s-1} e^{-\beta \mu}}{\Gamma (s) } " />
 
 
-Les hypothèses (ii) et (iv) nous permettent de déduire que le distribution du nombre de transactions lorsque le client avant churn suit **une distribution binomiale négative** 
+Les hypothèses (i) et (iii) nous permettent de déduire que le distribution du nombre de transactions lorsque le client avant churn suit **une distribution binomiale négative** 
+
 <img src="https://latex.codecogs.com/svg.image?P(X(t)&space;=&space;x&space;|&space;r,&space;\alpha)&space;=&space;&space;\int_{0}^{\infty&space;}&space;P(X(t)&space;=&space;x&space;|&space;\lambda)&space;&space;*&space;g(\lambda&space;|{r,&space;\alpha&space;)}&space;d&space;\lambda=\frac{\Gamma&space;(r&plus;x)}{\Gamma&space;(r)&space;x!}&space;{(\frac{\alpha&space;}{\alpha&space;&plus;t})}^r&space;&space;{(\frac{t&space;}{\alpha&space;&plus;t})}^x" title="P(X(t) = x | r, \alpha) = \int_{0}^{\infty } P(X(t) = x | \lambda) * g(\lambda |{r, \alpha )} d \lambda=\frac{\Gamma (r+x)}{\Gamma (r) x!} {(\frac{\alpha }{\alpha +t})}^r {(\frac{t }{\alpha +t})}^x" />
