@@ -33,6 +33,11 @@ Ils suit une distribution gamma avec une forme paramètre r et paramètre d'éch
 
 La "durée de vie" non observée d'un client de longueur τ (au-delà de laquelle il est considéré comme inactif)
 
-est distribué de manière exponentielle avec un taux d'abandon μ : <img src="https://latex.codecogs.com/svg.image?f(\tau&space;&space;|&space;\mu&space;)=&space;\mu&space;e^{-\mu&space;\tau}" title="f(\tau | \mu )= \mu e^{-\mu \tau}" />
+est distribué de manière exponentielle avec un taux d'abandon μ :
+<img src="https://latex.codecogs.com/svg.image?f(\tau&space;&space;|&space;\mu&space;)=&space;\mu&space;e^{-\mu&space;\tau}" title="f(\tau | \mu )= \mu e^{-\mu \tau}" />
 
 + La propension au churn (abondon) varie selon les clients
+L'hétérogénéité des taux d'abandon parmi les clients suit une distribution gamma avec une forme
+paramètre s et paramètre d'échelle β.
+
+<img src="https://latex.codecogs.com/svg.image?g(\mu&space;|&space;s,&space;\beta&space;)&space;=&space;\frac{\beta&space;^{s}&space;\mu^{s-1}&space;e^{-\beta&space;\mu}}{\Gamma&space;(s)&space;}&space;" title="g(\mu | s, \beta ) = \frac{\beta ^{s} \mu^{s-1} e^{-\beta \mu}}{\Gamma (s) } " />
