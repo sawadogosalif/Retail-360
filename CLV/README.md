@@ -13,7 +13,7 @@ une certaine période de temps, puis devenir définitivement inactif
 
 De son vivant, le nombre de transactions effectuées par un client suit un processus de Poisson avec
 taux de transaction λ ; donc la probabilité d'observer x transactions dans l'intervalle de temps
-(0, t] est donné par :
+(0, t] est donné par :<img src="https://latex.codecogs.com/svg.image?P(X(t)=x&space;|&space;\lambda)&space;=&space;&space;\frac{{\lambda&space;t&space;}^x&space;e^{&space;-\lambda&space;t}}{x!}" title="P(X(t)=x | \lambda) = \frac{{\lambda t }^x e^{ -\lambda t}}{x!}" />
 
 Cela équivaut à supposer que le temps entre les transactions est distribué exponentiellement
 avec taux de transaction λ
