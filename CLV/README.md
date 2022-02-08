@@ -3,8 +3,9 @@
 "understanding and acting on customer lifetime value (CLV) is the most important part of your business’s sales efforts",AP. Fader and B. Hardie
 
 
-Les clients traversent deux étapes dans leur « vie » avec une entreprise spécifique : ils sont « vivants » pour
-une certaine période de temps, puis devenir définitivement inactif
+Les clients traversent deux étapes dans leur « vie » avec une entreprise donnée :
+1.  Ils sont « vivants » pour ne certaine période de temps, 
+2.  Puis deviennent définitivement inactif
 
 ## Prémière approche :Modélisation du Flux de transaction (Le modèle Pareto/NBD )
 #### Processus de transaction
