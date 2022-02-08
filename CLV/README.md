@@ -8,7 +8,7 @@ une certaine période de temps, puis devenir définitivement inactif
 
 ## Prémière approche :Modélisation du Flux de transaction ("By till You Die")
 #### Processus de transaction
-##### Hypothèse 1
+##### Hypothèses 1
 + Lorsqu'il est actif, un client achète "au hasard" autour de son taux de transaction moyen 
 
 De son vivant, le nombre de transactions effectuées par un client suit un processus de Poisson avec
@@ -22,7 +22,7 @@ avec taux de transaction λ
 
 <img src="https://latex.codecogs.com/svg.image?f(t_j-t_{j-1}&space;|&space;\lambda&space;)=" title="f(t_j-t_{j-1} | \lambda )=" /> <img src="https://latex.codecogs.com/svg.image?\lambda&space;exp^{-\lambda(t_j-t_{j-1})}&space;&space;&space;&space;&space;&space;&space;&space;" title="\lambda exp^{-\lambda(t_j-t_{j-1})} " />      avec  <img src="https://latex.codecogs.com/svg.image?t_j>&space;t_{j-1}&space;>0" title="t_j> t_{j-1} >0" />
 
-##### Hypothèse 2
+##### Hypothèses 2
 + Les taux de transaction varient selon les clients (effet individuels inobservés)
 
 Ils suit une distribution gamma avec une forme paramètre r et paramètre d'échelle α 
@@ -45,6 +45,10 @@ paramètre s et paramètre d'échelle β.
 <img src="https://latex.codecogs.com/svg.image?g(\mu&space;|&space;s,&space;\beta&space;)&space;=&space;\frac{\beta&space;^{s}&space;\mu^{s-1}&space;e^{-\beta&space;\mu}}{\Gamma&space;(s)&space;}&space;" title="g(\mu | s, \beta ) = \frac{\beta ^{s} \mu^{s-1} e^{-\beta \mu}}{\Gamma (s) } " />
 
 
-Les hypothèses (i) et (iii) nous permettent de déduire que le distribution du nombre de transactions lorsque le client avant churn suit **une distribution binomiale négative** 
+Les hypothèses 1 nous permettent de déduire que le distribution du nombre de transactions lorsque le client avant churn suit **une distribution binomiale négative** 
 
 <img src="https://latex.codecogs.com/svg.image?P(X(t)&space;=&space;x&space;|&space;r,&space;\alpha)&space;=&space;&space;\int_{0}^{\infty&space;}&space;P(X(t)&space;=&space;x&space;|&space;\lambda)&space;&space;*&space;g(\lambda&space;|{r,&space;\alpha&space;)}&space;d&space;\lambda=\frac{\Gamma&space;(r&plus;x)}{\Gamma&space;(r)&space;x!}&space;{(\frac{\alpha&space;}{\alpha&space;&plus;t})}^r&space;&space;{(\frac{t&space;}{\alpha&space;&plus;t})}^x" title="P(X(t) = x | r, \alpha) = \int_{0}^{\infty } P(X(t) = x | \lambda) * g(\lambda |{r, \alpha )} d \lambda=\frac{\Gamma (r+x)}{\Gamma (r) x!} {(\frac{\alpha }{\alpha +t})}^r {(\frac{t }{\alpha +t})}^x" />
+
+
+Les hypothèses 2 nous permettent de déduire que lA durée de vie du clients   est **une distribution de pareto** (Pareto distribution of the second kind)
+
