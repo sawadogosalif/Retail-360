@@ -13,7 +13,12 @@ une certaine période de temps, puis devenir définitivement inactif
 
 De son vivant, le nombre de transactions effectuées par un client suit un processus de Poisson avec
 taux de transaction λ ; donc la probabilité d'observer x transactions dans l'intervalle de temps
-(0, t] est donné par : <img src="https://latex.codecogs.com/svg.image?\lambda&space;exp^{-\lambda(t_j-t_{j-1})}&space;&space;&space;&space;&space;&space;&space;&space;" title="\lambda exp^{-\lambda(t_j-t_{j-1})} " />     
+(0, t] est donné par :
+
+Cela équivaut à supposer que le temps entre les transactions est distribué exponentiellement
+avec taux de transaction λ
+
+<img src="https://latex.codecogs.com/svg.image?\lambda&space;exp^{-\lambda(t_j-t_{j-1})}&space;&space;&space;&space;&space;&space;&space;&space;" title="\lambda exp^{-\lambda(t_j-t_{j-1})} " />     
 
 #### Processus d'abandon
 + Chaque client a une propension à l'abandon non observée qui varie selon les clients
