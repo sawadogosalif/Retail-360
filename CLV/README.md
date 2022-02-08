@@ -9,7 +9,6 @@ une certaine période de temps, puis devenir définitivement inactif
 ## Prémière approche :Modélisation du Flux de transaction ("By till You Die")
 #### Processus de transaction
 + Lorsqu'il est actif, un client achète "au hasard" autour de son taux de transaction moyen 
-+ Les taux de transaction varient selon les clients (effet individuels inobservés)
 
 De son vivant, le nombre de transactions effectuées par un client suit un processus de Poisson avec
 taux de transaction λ ; donc la probabilité d'observer x transactions dans l'intervalle de temps
@@ -19,6 +18,11 @@ Cela équivaut à supposer que le temps entre les transactions est distribué ex
 avec taux de transaction λ
 
 <img src="https://latex.codecogs.com/svg.image?f(t_j-t_{j-1}&space;|&space;\lambda&space;)=" title="f(t_j-t_{j-1} | \lambda )=" /> <img src="https://latex.codecogs.com/svg.image?\lambda&space;exp^{-\lambda(t_j-t_{j-1})}&space;&space;&space;&space;&space;&space;&space;&space;" title="\lambda exp^{-\lambda(t_j-t_{j-1})} " />      avec  <img src="https://latex.codecogs.com/svg.image?t_j>&space;t_{j-1}&space;>0" title="t_j> t_{j-1} >0" />
+
++ Les taux de transaction varient selon les clients (effet individuels inobservés)
+
+Ils suit une distribution gamma avec une forme paramètre r et paramètre d'échelle α 
+<img src="https://latex.codecogs.com/svg.image?g(\lambda&space;|&space;r,&space;\alpha&space;)&space;=&space;\frac{\alpha&space;^{r}&space;\lambda^{r-1}&space;e^{-\alpha&space;\lambda}}{\Gamma&space;(r)&space;}&space;" title="g(\lambda | r, \alpha ) = \frac{\alpha ^{r} \lambda^{r-1} e^{-\alpha \lambda}}{\Gamma (r) } " />
 
 #### Processus d'abandon
 + Chaque client a une propension à l'abandon non observée qui varie selon les clients
