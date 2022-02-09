@@ -115,3 +115,5 @@ transactions , par la suite déduire la distribution de ζ  et enfin calculer E(
   En suivant les propriété d'échelle de la loi gamma,  <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overline{z}" /> ∼ gamma(px, νx). 
   
  2. On suppose également que ν ∼ gamma(q, γ).
+
+Pour aller plus loin :http://www.brucehardie.com/notes/025/gamma_gamma.pdf
