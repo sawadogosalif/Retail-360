@@ -78,4 +78,4 @@ Nous sommes intéressé par le calcul de <img src="https://latex.codecogs.com/sv
 
 
 
-For more details about technicals points : http://brucehardie.com/notes/009/pareto_nbd_derivations_2005-11-05.pdf
+Pour en savoir plus sur les details mathématiques : http://brucehardie.com/notes/009/pareto_nbd_derivations_2005-11-05.pdf
