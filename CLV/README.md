@@ -103,5 +103,7 @@ Pour un client avec x transactions , On note les valeurs des transaction par <im
 En réalité, <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overline{z}" /> est une estimation imparfaite de la valeur monétaire  (non observée)
 ζ.  
 Le sous-modèle modèle gamma gamma faire des inférences sur ζ étant donné <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overline{z}" />, que nous notons
-E(Z | <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overline{z}" />, x ). Dans un premier temps, nous devons dériver la distribution de ¯z étant donné x
-transactions.
+E(Z | <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overline{z}" />, x ). 
+
+Dans un premier temps, il faut calculer la distribution de n de <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overline{z}" /> étant donné x
+transactions et par la suite déduire E(Z | <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overline{z}" />, x )
