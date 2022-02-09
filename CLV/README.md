@@ -96,6 +96,7 @@ Pour en savoir plus sur les details mathématiques : http://brucehardie.com/note
 
 
 Pour un client avec x transactions , On note les valeurs des transaction par <img src="https://latex.codecogs.com/svg.image?z_1,&space;z_2,&space;...,&space;z_x" title="z_1, z_2, ..., z_x" />
+
 <img src="https://latex.codecogs.com/svg.image?\overline{z}=\sum_{i=1}^{x}\frac{z_i}{x}" title="\overline{z}=\sum_{i=1}^{x}\frac{z_i}{x}" />
 
 
