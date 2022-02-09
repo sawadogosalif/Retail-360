@@ -72,6 +72,6 @@ On estime le modèle par maximum de vraissenblance en supposant que les 4 param�
 + Calcul dela probabaibilité de survie grace à la distribution aposterio de λ and μ (Bayes)
 
 +  On peut calculer l'espérence conditionenelle des achats :
-Soit la variable aléatoire Y (t) le nombre d'achats effectués dans la période (T,T + t]. Nous sommes
-intéressé par le calcul de <img src="https://latex.codecogs.com/svg.image?E(Y&space;(t)|&space;x,&space;t_x,&space;T)" title="E(Y (t)| x, t_x, T)" />, le nombre d'achats attendus dans la période (T,T +t]
-pour un client avec historique d'achat (x, tx, T); nous appelons cela l'espérance conditionnelle
+
+Soit la variable aléatoire Y (t) le nombre d'achats effectués dans la période (T,T + t]. 
+Nous sommes intéressé par le calcul de <img src="https://latex.codecogs.com/svg.image?E(Y&space;(t)|&space;x,&space;t_x,&space;T)" title="E(Y (t)| x, t_x, T)" />, le nombre d'achats attendus dans la période (T,T +t] pour un client avec historique d'achat (x, tx, T)
