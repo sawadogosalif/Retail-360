@@ -107,3 +107,11 @@ E(Z | <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overl
 
 Dans un premier temps, il faut calculer la distribution de n de <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overline{z}" /> étant donné x
 transactions , par la suite déduire la distribution de ζ  et enfin calculer E(Z | <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overline{z}" />, x )
++ On suppose
+ 1. zi ∼ gamma(p, ν), with E(Zi | p, ν) = ζ = p/ν.
+ 
+  La valeur totale des transaction suit  suivra par conséquence (propiété de convolution) une distribution  gamma(px, ν) . 
+  
+  En suivant les propriété d'échelle de la loi gamma,  <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overline{z}" /> ∼ gamma(px, νx). 
+  
+ 2. On suppose également que ν ∼ gamma(q, γ).
