@@ -106,4 +106,4 @@ Le sous-modèle modèle gamma gamma faire des inférences sur ζ étant donné <
 E(Z | <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overline{z}" />, x ). 
 
 Dans un premier temps, il faut calculer la distribution de n de <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overline{z}" /> étant donné x
-transactions et par la suite déduire E(Z | <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overline{z}" />, x )
+transactions , par la suite déduire la distribution de ζ  et enfin calculer E(Z | <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overline{z}" />, x )
