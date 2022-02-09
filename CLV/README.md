@@ -55,10 +55,16 @@ Les hypothèses 2 nous permettent de déduire que lA durée de vie du clients   
 
 <img src="https://latex.codecogs.com/svg.image?f(\tau&space;&space;|&space;s,&space;\beta)&space;=&space;&space;\int_{0}^{\infty&space;}&space;f(\tau&space;&space;|&space;\mu)&space;&space;*&space;g(\mu&space;|{s,&space;\beta&space;)}&space;d&space;\mu=\frac{s}{\beta}&space;{(\frac{\beta&space;}{\beta&space;&plus;\tau})}^{s&plus;1}" title="f(\tau | s, \beta) = \int_{0}^{\infty } f(\tau | \mu) * g(\mu |{s, \beta )} d \mu=\frac{s}{\beta} {(\frac{\beta }{\beta +\tau})}^{s+1}" />
 
+#### Estimations
 
-Supposons que nous sachions quand chacune des x transactions d'un client s'est produite pendant la période (0, T] ;
++ Supposons que nous sachions quand chacune des x transactions d'un client s'est produite pendant la période (0, T] ;
 on note ces instants t1, t2,...,tx  (tx = Recency and x =Frequency).
 
 On estime le modèle par maximum de vraissenblance en supposant que les 4 paramètres sont inconnus (sans condition sur λ and μ)
 
 <img src="https://latex.codecogs.com/svg.image?L(\alpha&space;,&space;\beta&space;,&space;r,&space;&space;s|&space;x,&space;t_x,&space;T)=\int_{0}^{\infty&space;}\int_{0}^{\infty&space;}&space;L(\lambda&space;&space;,&space;\mu|&space;x,&space;t_x,&space;&space;T)&space;g(\lambda&space;|r,&space;\alpha&space;)&space;&space;g(\mu&space;|s,&space;\beta&space;)&space;d\lambda&space;d\mu&space;" title="L(\alpha , \beta , r, s| x, t_x, T)=\int_{0}^{\infty }\int_{0}^{\infty } L(\lambda , \mu| x, t_x, T) g(\lambda |r, \alpha ) g(\mu |s, \beta ) d\lambda d\mu " />
+
++ On peut calcul la moyenne et la variance du modèle pour chaque clients grace aux paramètres estimés :
+
+<img src="https://latex.codecogs.com/svg.image?E(X(t)&space;|\alpha&space;,&space;\beta&space;,&space;r,&space;&space;s)=\int_{0}^{\infty&space;}\int_{0}^{\infty&space;}&space;E(X(t)|&space;\lambda&space;&space;,&space;\mu|)&space;g(\lambda&space;|r,&space;\alpha&space;)&space;&space;g(\mu&space;|s,&space;\beta&space;)&space;d\lambda&space;d\mu&space;" title="E(X(t) |\alpha , \beta , r, s)=\int_{0}^{\infty }\int_{0}^{\infty } E(X(t)| \lambda , \mu|) g(\lambda |r, \alpha ) g(\mu |s, \beta ) d\lambda d\mu " />
+
