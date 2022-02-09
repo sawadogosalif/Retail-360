@@ -54,3 +54,9 @@ Les hypothèses 1 nous permettent de déduire que le distribution du nombre de t
 Les hypothèses 2 nous permettent de déduire que lA durée de vie du clients   est **une distribution de pareto** (Pareto distribution of the second kind)
 
 <img src="https://latex.codecogs.com/svg.image?f(\tau&space;&space;|&space;s,&space;\beta)&space;=&space;&space;\int_{0}^{\infty&space;}&space;f(\tau&space;&space;|&space;\mu)&space;&space;*&space;g(\mu&space;|{s,&space;\beta&space;)}&space;d&space;\mu=\frac{s}{\beta}&space;{(\frac{\beta&space;}{\beta&space;&plus;\tau})}^{s&plus;1}" title="f(\tau | s, \beta) = \int_{0}^{\infty } f(\tau | \mu) * g(\mu |{s, \beta )} d \mu=\frac{s}{\beta} {(\frac{\beta }{\beta +\tau})}^{s+1}" />
+
+
+
+On estime le modèle par maximum de vraissenblance en supposant que les 4 paramètres sont inconnus (sans condition sur λ and μ)
+
+<img src="https://latex.codecogs.com/svg.image?L(\alpha&space;,&space;\beta&space;,&space;r,&space;&space;s|&space;x,&space;t_x,&space;T)=\int_{0}^{\infty&space;}\int_{0}^{\infty&space;}&space;L(\lambda&space;&space;,&space;\mu|&space;x,&space;t_x,&space;&space;T)&space;g(\lambda&space;|r,&space;\alpha&space;)&space;&space;g(\mu&space;|s,&space;\beta&space;)&space;d\lambda&space;d\mu&space;" title="L(\alpha , \beta , r, s| x, t_x, T)=\int_{0}^{\infty }\int_{0}^{\infty } L(\lambda , \mu| x, t_x, T) g(\lambda |r, \alpha ) g(\mu |s, \beta ) d\lambda d\mu " />
