@@ -79,3 +79,28 @@ Nous sommes intéressé par le calcul de <img src="https://latex.codecogs.com/sv
 
 
 Pour en savoir plus sur les details mathématiques : http://brucehardie.com/notes/009/pareto_nbd_derivations_2005-11-05.pdf
+
+
+## Deuxxième approche : Sous-modèle Gamma-Gamma
+ Ce modèle permet  prédire le profit  moyen ou la valeur de transaction moyenne  que nous pouvons réaliser pour chaque client.
+ Il nous donne le profit moyen attendu pour chaque client après avoir modélisé le profit moyen pour la masse.
+ 
++ La valeur monétaire d'un client  sera distribuée de manière aléatoire autour de la moyenne de ses transaction.
+
+
++  Une valeur de transaction moyenne peut changer au fil des périodes entre les clients, mais elle ne change pas pour un client donné
++  
++  La distribution des valeurs moyennes des transactions entre les clients doit etre  indépendante des fréquences des transactions
+
++  ==> La valeur moyenne des transactions pour chaque client sera distribuée gamma 
+
+
+Pour un client avec x transactions , On note les valeurs des transaction par <img src="https://latex.codecogs.com/svg.image?z_1,&space;z_2,&space;...,&space;z_x" title="z_1, z_2, ..., z_x" />
+<img src="https://latex.codecogs.com/svg.image?\overline{z}=\sum_{i=1}^{x}\frac{z_i}{x}" title="\overline{z}=\sum_{i=1}^{x}\frac{z_i}{x}" />
+
+
+En réalité, <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overline{z}" /> est une estimation imparfaite de la valeur monétaire  (non observée)
+ζ.  
+Le sous-modèle modèle gamma gamma faire des inférences sur ζ étant donné <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overline{z}" />, que nous notons
+E(Z | <img src="https://latex.codecogs.com/svg.image?\overline{z}" title="\overline{z}" />, x ). Dans un premier temps, nous devons dériver la distribution de ¯z étant donné x
+transactions.
