@@ -25,3 +25,9 @@ Quel groupe de clients est le plus susceptible de répondre à votre campagne ac
 1.  Daily sales Forecasting
 2.  Weekly sales forcasting
 
+
+## Survival Analysis and Attrition
+
+
+## Customer Lifetime value
+
