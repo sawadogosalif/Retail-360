@@ -120,7 +120,7 @@ Pour aller plus loin :http://www.brucehardie.com/notes/025/gamma_gamma.pdf
 
 
 
-<img src="https://latex.codecogs.com/svg.image?\overline{z}=R^2 = \frac{SS_{model}}{SS_{total}}" title="R^2 = \frac{SS_{model}}{SS_{total}}" />
+<img src="https://latex.codecogs.com/svg.image?\R^2 = \frac{SS_{model}}{SS_{total}}" title="R^2 = \frac{SS_{model}}{SS_{total}}" />
 
 
 
