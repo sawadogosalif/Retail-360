@@ -117,3 +117,21 @@ transactions , par la suite déduire la distribution de ζ  et enfin calculer E(
  2. On suppose également que ν ∼ gamma(q, γ).
 
 Pour aller plus loin :http://www.brucehardie.com/notes/025/gamma_gamma.pdf
+
+
+
+<img src="https://latex.codecogs.com/svg.image?\overline{z}=R^2 = \frac{SS_{model}}{SS_{total}}" title="R^2 = \frac{SS_{model}}{SS_{total}}" />
+
+
+
+F = \frac{\left(\frac{SS_{model}}{df_{model}}\right)}{\left(\frac{SS_{residual}}{df_{residual}}\right)}
+
+where:
+
+SS_{total} = \sum_{i = 1}^{N}(Y_i - \bar{Y})^2
+
+SS_{model} = \sum_{i = 1}^{N}(\hat{Y}_i - \bar{Y})^2
+
+SS_{residual} = \sum_{i = 1}^{N}(Y_i - \hat{Y}_i)^2
+
+I hope this helps!
